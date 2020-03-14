@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8" />
+	<meta name ="viewport" content="width=device-width , initial-scale=1.0" />
+	<title>Progress-Bars</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div id="content">
+		<h1>Progress Bars</h1>
+		<div class="myProgress">
+	  		<div id="bar1" class="myBar">
+	  			<span></span>
+	  		</div>
+		</div>
+
+		<div class="myProgress" >
+	  		<div id="bar2" class="myBar">
+	  			<span></span>
+	  		</div>
+		</div>
+
+		<div class="myProgress">
+	  		<div id="bar3" class="myBar">
+	  			<span></span>
+	  		</div>
+		</div>
+		<div class="myProgress">
+	  		<div id="bar4" class="myBar">
+	  			<span></span>
+	  		</div>
+		</div>
+		<div class="myProgress">
+	  		<div id="bar5" class="myBar">
+	  			<span></span>
+	  		</div>
+		</div>
+		<br />
+		
+		<select name="progress" id="selectBar"></select>
+
+		<button onclick="move(0)"></button>
+		<button onclick="move(1)"></button>
+		<button onclick="move(2)"></button>
+		<button onclick="move(3)"></button>
+
+		<p id="current">Current limit:<span></span></p>
+	</div>
+	
+	<script src="js/code.js"></script>
+</body>
+</html>
